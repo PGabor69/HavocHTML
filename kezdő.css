@@ -1,0 +1,61 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+     background-image: url(kezdohatter.jpg);
+     text-align: center;
+}
+
+header {
+    background-color: ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    margin: 0;
+}
+
+footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    flex: 1;
+    max-width: 30%;
+    height: max-content;
+    margin: 40px;
+    border: 2px solid #333; 
+    border-radius: 8px;
+    margin: 5px;
+}
